@@ -9,4 +9,4 @@ if __name__ == "__main__":
     logger.debug("Starting Application...")
 
     from api import *
-    App.run(host="0.0.0.0", debug=True, use_reloader=True)
+    App.run(host="0.0.0.0", port=23450 , debug=True, use_reloader=True)
